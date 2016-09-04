@@ -1,0 +1,209 @@
+./DriverExam.java:56: error: illegal start of expression
+    public DriverExam(String name){
+    ^
+./DriverExam.java:56: error: ')' expected
+    public DriverExam(String name){
+                            ^
+./DriverExam.java:56: error: illegal start of expression
+    public DriverExam(String name){
+                                 ^
+./DriverExam.java:56: error: ';' expected
+    public DriverExam(String name){
+                                  ^
+./DriverExam.java:59: error: illegal start of expression
+    	DriverExamObject.quizAnswers = [];
+    	                               ^
+./DriverExam.java:59: error: illegal start of expression
+    	DriverExamObject.quizAnswers = [];
+    	                                ^
+./DriverExam.java:84: error: <identifier> expected
+    System.out.println("Enter your answers to the exam questions.");
+                      ^
+./DriverExam.java:84: error: illegal start of type
+    System.out.println("Enter your answers to the exam questions.");
+                       ^
+./DriverExam.java:90: error: illegal start of type
+    for (int i : quizAnswers) {
+    ^
+./DriverExam.java:90: error: ')' expected
+    for (int i : quizAnswers) {
+              ^
+./DriverExam.java:90: error: <identifier> expected
+    for (int i : quizAnswers) {
+                            ^
+./DriverExam.java:117: error: <identifier> expected
+        System.out.println("Correct answers: " + totalCorrect); // Correct answers: 11
+                          ^
+./DriverExam.java:117: error: illegal start of type
+        System.out.println("Correct answers: " + totalCorrect); // Correct answers: 11
+                           ^
+./DriverExam.java:117: error: ')' expected
+        System.out.println("Correct answers: " + totalCorrect); // Correct answers: 11
+                                              ^
+./DriverExam.java:117: error: ';' expected
+        System.out.println("Correct answers: " + totalCorrect); // Correct answers: 11
+                                                ^
+./DriverExam.java:117: error: illegal start of type
+        System.out.println("Correct answers: " + totalCorrect); // Correct answers: 11
+                                                             ^
+./DriverExam.java:117: error: <identifier> expected
+        System.out.println("Correct answers: " + totalCorrect); // Correct answers: 11
+                                                              ^
+./DriverExam.java:117: error: ';' expected
+        System.out.println("Correct answers: " + totalCorrect); // Correct answers: 11
+                                                               ^
+./DriverExam.java:118: error: illegal start of type
+        System.out.println("Incorrect answers: " + totalIncorrect); // Incorrect answers: 9  		
+              ^
+./DriverExam.java:118: error: ';' expected
+        System.out.println("Incorrect answers: " + totalIncorrect); // Incorrect answers: 9  		
+                  ^
+./DriverExam.java:118: error: invalid method declaration; return type required
+        System.out.println("Incorrect answers: " + totalIncorrect); // Incorrect answers: 9  		
+                   ^
+./DriverExam.java:118: error: illegal start of type
+        System.out.println("Incorrect answers: " + totalIncorrect); // Incorrect answers: 9  		
+                           ^
+./DriverExam.java:118: error: ')' expected
+        System.out.println("Incorrect answers: " + totalIncorrect); // Incorrect answers: 9  		
+                                                ^
+./DriverExam.java:118: error: ';' expected
+        System.out.println("Incorrect answers: " + totalIncorrect); // Incorrect answers: 9  		
+                                                  ^
+./DriverExam.java:118: error: illegal start of type
+        System.out.println("Incorrect answers: " + totalIncorrect); // Incorrect answers: 9  		
+                                                                 ^
+./DriverExam.java:118: error: <identifier> expected
+        System.out.println("Incorrect answers: " + totalIncorrect); // Incorrect answers: 9  		
+                                                                  ^
+./DriverExam.java:118: error: ';' expected
+        System.out.println("Incorrect answers: " + totalIncorrect); // Incorrect answers: 9  		
+                                                                   ^
+./DriverExam.java:120: error: illegal start of type
+    passed = totalCorrect >= 10 ? true : false;
+           ^
+./DriverExam.java:120: error: ';' expected
+    passed = totalCorrect >= 10 ? true : false;
+                         ^
+./DriverExam.java:122: error: illegal start of type
+    if (passed == true) {
+    ^
+./DriverExam.java:122: error: <identifier> expected
+    if (passed == true) {
+              ^
+./DriverExam.java:122: error: ';' expected
+    if (passed == true) {
+                 ^
+./DriverExam.java:122: error: illegal start of type
+    if (passed == true) {
+                      ^
+./DriverExam.java:122: error: <identifier> expected
+    if (passed == true) {
+                       ^
+./DriverExam.java:122: error: ';' expected
+    if (passed == true) {
+                         ^
+./DriverExam.java:123: error: illegal start of type
+        System.out.println("You passsed the exam.");
+              ^
+./DriverExam.java:123: error: ';' expected
+        System.out.println("You passsed the exam.");
+                  ^
+./DriverExam.java:123: error: invalid method declaration; return type required
+        System.out.println("You passsed the exam.");
+                   ^
+./DriverExam.java:123: error: illegal start of type
+        System.out.println("You passsed the exam.");
+                           ^
+./DriverExam.java:125: error: class, interface, or enum expected
+        else {
+        ^
+./DriverExam.java:127: error: class, interface, or enum expected
+        }
+        ^
+./DriverExam.java:131: error: class, interface, or enum expected
+    }
+    ^
+./DriverExam.java:84: error: cannot find symbol
+    System.out.println("Enter your answers to the exam questions.");
+          ^
+  symbol:   class out
+  location: class System
+./DriverExam.java:90: error: cannot find symbol
+    for (int i : quizAnswers) {
+                 ^
+  symbol:   class quizAnswers
+  location: class DriverExam
+./DriverExam.java:117: error: cannot find symbol
+        System.out.println("Correct answers: " + totalCorrect); // Correct answers: 11
+              ^
+  symbol:   class out
+  location: class System
+./DriverExam.java:122: error: cannot find symbol
+    if (passed == true) {
+        ^
+  symbol:   class passed
+  location: class DriverExam
+DriverExamDemo.java:40: error: reference to DriverExam is ambiguous
+      DriverExam exam = new DriverExam(answers);
+                        ^
+  both constructor DriverExam(<any>) in DriverExam and constructor DriverExam(<any>) in DriverExam match
+DriverExamDemo.java:43: error: cannot find symbol
+      missedQuestions = exam.questionsMissed();
+                            ^
+  symbol:   method questionsMissed()
+  location: variable exam of type DriverExam
+DriverExamDemo.java:46: error: cannot find symbol
+      System.out.println("Correct answers: " + exam.totalCorrect());
+                                                   ^
+  symbol:   method totalCorrect()
+  location: variable exam of type DriverExam
+DriverExamDemo.java:47: error: cannot find symbol
+      System.out.println("Incorrect answers: " + exam.totalIncorrect());
+                                                     ^
+  symbol:   method totalIncorrect()
+  location: variable exam of type DriverExam
+DriverExamDemo.java:49: error: cannot find symbol
+      if (exam.passed())
+              ^
+  symbol:   method passed()
+  location: variable exam of type DriverExam
+./DriverExam.java:56: error: cannot find symbol
+    public DriverExam(String name){
+                      ^
+  symbol:   variable String
+  location: class DriverExam
+./DriverExam.java:58: error: reference to DriverExam is ambiguous
+    	DriverExam DriverExamObject = new DriverExam("test");
+    	                              ^
+  both constructor DriverExam(<any>) in DriverExam and constructor DriverExam(<any>) in DriverExam match
+./DriverExam.java:92: error: cannot find symbol
+        currentAnswer = keyboard.next(); // accepting string input
+                        ^
+  symbol:   variable keyboard
+  location: class DriverExam
+./DriverExam.java:101: error: cannot find symbol
+    	System.out.println ("Question " + (i+1) + ":");
+    	                                   ^
+  symbol:   variable i
+  location: class DriverExam
+./DriverExam.java:102: error: cannot find symbol
+	    	if (currentAnswer.charAt(0) == quizAnswers(i)) {
+	    	                                           ^
+  symbol:   variable i
+  location: class DriverExam
+./DriverExam.java:104: error: illegal forward reference
+	    		++totalCorrect;
+	    		  ^
+./DriverExam.java:108: error: cannot find symbol
+	    		questionsMisssed.add(i);
+	    		                     ^
+  symbol:   variable i
+  location: class DriverExam
+./DriverExam.java:108: error: cannot find symbol
+	    		questionsMisssed.add(i);
+	    		^
+  symbol:   variable questionsMisssed
+  location: class DriverExam
+59 errors
+

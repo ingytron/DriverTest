@@ -1,0 +1,125 @@
+package DriverExam
+import java.util.ArrayList;
+import java.util.Scanner;
+
+/**
+ * 
+    DriverExam: Constructor that accepts an array of answers and copies to the student's answers array field
+    passed: Returns true if the student passed the exam, or false if the student failed
+    totalCorrect: Returns the total number of correctly answered questions
+    totalIncorrect: Returns the total number of incorrectly answered questions
+    questionsMissed: An int array containing the question numbers of those questions that the student missed
+
+Demonstrate the DriverExam class by a test program, DriverExamDemo.java, which can be downloaded from the Test Program folder of this assignment. The demo program will ask the user to enter a student's answers, and then displays the results returned from the DriverExam class's methods.
+
+Question 1: b
+Question 2: d
+Question 3: a
+Question 4: a
+Question 5: c
+Question 6: a
+Question 7: b
+Question 8: c
+Question 9: c
+Question 10: c
+Question 11: c
+Question 12: c
+Question 13: c
+Question 14: c
+Question 15: c
+Question 16: c
+Question 17: c
+Question 18: c
+Question 19: c
+Question 20: c
+Correct answers: 11
+Incorrect answers: 9
+You passed the exam.
+You missed the following questions:
+8 10 11 13 14 15 18 19 20
+%
+
+
+method: get and validate user input, push to array
+	
+	compare array [i] in each respective array
+        accept answer of char a, b, c or d only
+	if the answer matches, add counter to correct answers
+	if incorrect, push answer to questions missed
+	return total correct counter
+	return questions missed and count 
+        pass mark is 10/20
+
+ */
+
+public class DriverExam {
+	
+	// array with quiz answers
+	// array with student answers 
+
+    public static void main(String[] args) {
+
+
+    Boolean passed = false;
+    ArrayList<String> sports = new ArrayList<String>();	
+    	
+    HashMap<char, int> quizAnswers = new HashMap<char, int>();
+    
+    char[] quizAnswers; // declaring the array to store chars for quiz answers
+    quizAnswers = new char[20]; // array contains 20 values
+
+(1. b, 2. d, 3. a, 4. a, 5. c, 6. a, 7. b, 8. a, 9. c, 10. d, 
+    11. b, 12. c, 13. d, 14. a, 15. d, 16. c, 17. c, 18. b, 19. d, 20. a);
+	
+	// Array list missed answers = [];
+
+
+    //////////////////////////  Quiz  //////////////////////////////
+
+    
+    
+    char currentAnswer; // var to store answer input from kb
+
+    System.out.println("Enter your answers to the exam questions.");
+    currentAnswer = keyboard.nextInt();
+    // Input Validation: Only accept the letters a, b, c, or d as answers.
+    while (currentAnswer != 'a' || currentAnswer != 'b'|| currentAnswer != 'c'|| currentAnswer != 'd' ) { 
+        System.out.println("Invalid input, please answer either a,b,c or d"); 
+    
+ }
+    // repeat for all questions
+      for (int i = 0; i < quizAnswers.size(); i++) {
+        System.out.println( weeklyTemperatures.get(i));
+      }
+
+
+	//quizAnswers.add();
+    
+
+    for (String name : quizAnswers.keySet()) {
+    	System.out.println(quizAnswer.get(name));
+    }
+    
+	
+	
+
+	// ArrayList<Integer> quizAnswers = new ArrayList<Integer>();
+	
+
+    //////////////////////////  Results  //////////////////////////////
+
+        System.out.println("Correct answers: " + totalCorrect); // Correct answers: 11
+        System.out.println("Incorrect answers: " + totalIncorrect); // Incorrect answers: 9
+        if (totalCorrect.size() > 10) {
+         System.out.println("You passsed the exam.");
+	}
+        else {
+         System.out.println("You did not pass the exam.");
+        }
+        System.out.println("You missed the following questions: " + questionsMissed );
+
+
+} // ends main class
+} // ends DriverExam class
+
+
